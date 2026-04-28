@@ -2,6 +2,9 @@
   import Kicker from '$lib/components/Article/Kicker.svelte';
   import Headline from '$lib/components/Article/Headline.svelte';
   import Image from '$lib/components/Media/Image.svelte';
+  import Rule from '$lib/components/Layout/Rule.svelte';
+  import TagList from '$lib/components/Data/TagList.svelte';
+  import ArticleBody from '$lib/components/Article/ArticleBody.svelte';
   import { base } from '$app/paths';
 
   let { data } = $props();
@@ -13,5 +16,17 @@
 
   <Image src={data.clip.image} alt={data.clip.title} />
 
-  <p>{data.clip.description}</p>
+  <Rule />
+  <TagList label="Skills" tags={data.clip.skills} />
+  <TagList
+    label="View Project"
+    tags={[{ text: new URL(data.clip.url).hostname, href: data.clip.url }]}
+  />
+  <Rule />
+
+  <ArticleBody>
+    {#each data.clip.body.trim().split('\n\n') as paragraph, i (i)}
+      <p>{paragraph}</p>
+    {/each}
+  </ArticleBody>
 </div>
