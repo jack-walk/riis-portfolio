@@ -15,6 +15,11 @@
   <Headline text={data.clip.title} />
 
   <Image src={data.clip.image} alt={data.clip.title} />
+  <div class="caption-container" aria-label="Image credit">
+    {#if data.clip.imageCredit}
+      <span class="credit">{data.clip.imageCredit}</span>
+    {/if}
+  </div>
 
   <Rule />
   <TagList label="Skills" tags={data.clip.skills} />
@@ -30,3 +35,21 @@
     {/each}
   </ArticleBody>
 </div>
+
+<style lang="scss">
+  .container :global(.image-figure) {
+    margin-bottom: var(--spacing-xxs);
+  }
+
+  .caption-container {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .credit {
+    display: block;
+    font-size: var(--font-size-xs);
+    font-style: italic;
+    color: var(--color-medium-gray);
+  }
+</style>

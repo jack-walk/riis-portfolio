@@ -25,6 +25,7 @@
     tagline={content.profile.tagline}
     photo={content.profile.photo}
     photoAlt={content.profile.photoAlt}
+    photoCredit={content.profile.photoCredit}
     email={content.profile.email}
     github={content.profile.github}
     linkedin={content.profile.linkedin}

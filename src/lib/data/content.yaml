@@ -17,6 +17,7 @@ clips:
     title: Christmas tree disposal requests spiked last holiday
     image: /photos/xmas.jpeg
     imageAlt: A Christmas tree sits curbside
+    imageCredit: Jack Walker
     description: Tracking Christmas tree disposal issues in Washington, D.C.
     url: https://jack-walk.github.io/dc-xmas-trees/
     skills:
@@ -35,6 +36,7 @@ clips:
     title: How $25 and 24 Hours Can Make a Wedding Official
     image: /photos/forms.jpg
     imageAlt: One-day marriage officiant forms sit atop a table
+    imageCredit: Jack Walker/NYCity News Service
     description: Examining the rise of one-day marriage officiants in New York City.
     url: https://howweloveinnyc.nycitynewsservice.com/how-25-and-24-hours-can-make-a-wedding-official/
     skills:
@@ -54,6 +56,7 @@ clips:
     title: ACT UP hosts die-in over Palantir-Trump contracts
     image: /photos/die.png
     imageAlt: A person adorning religious clothing and makeup lies on the pavement, as if dead.
+    imageCredit: Jack Walker/The Advocate
     description: Reporting live from a New York City march and protest.
     url: https://www.advocate.com/politics/advocacy/act-up-palantir-nyc-protest
     skills:
