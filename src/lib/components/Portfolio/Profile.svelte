@@ -105,7 +105,7 @@ Next, I'm exploring machine learning tools for document analysis."
 
     @include tablet {
       grid-template-columns: var(--max-width-image-small) minmax(0, 1fr);
-      align-items: start;
+      align-items: center;
     }
   }
 
@@ -114,7 +114,7 @@ Next, I'm exploring machine learning tools for document analysis."
     line-height: var(--leading-tight);
     margin: 0;
     letter-spacing: var(--letter-spacing-tight);
-    margin-bottom: var(--spacing-xxs);
+    margin-bottom: var(--spacing-sm);
 
     @include mobile {
       font-size: var(--font-size-display);

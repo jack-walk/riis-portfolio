@@ -1,6 +1,5 @@
 profile:
   name: Jack Walker
-  tagline: Journalist
   photo: photos/headshot.jpeg
   photoAlt: A headshot of Jack Walker wearing a collared shirt.
   email: jack.walker73@journalism.cuny.edu
@@ -11,51 +10,58 @@ profile:
 
     Jack specializes in data journalism, but also dabbles in audio and written storytelling. He is pursuing an M.A. at the Craig Newmark School of Journalism, and also holds an M.A. and B.A. from Brown University.
 
+    Jack's reporting has been featured in news outlets like The Advocate, West Virginia Public Broadcasting, Pittsburgh's Public Source.
+
 clips:
-  - slug: police
-    title: Police Headquarters Reporter
-    image: /photos/police.jpg
-    imageAlt: Mulberry Street police headquarters in the late 1880s
-    description: A decade of police-beat reporting at 300 Mulberry Street for the New-York Tribune and the Evening Sun, covering crime, immigration, and the daily life of the Lower East Side.
-    url: https://www.loc.gov/collections/jacob-riis/
+  - slug: xmas
+    title: Christmas tree disposal requests spiked last holiday
+    image: /photos/xmas.jpeg
+    imageAlt: A Christmas tree sits curbside
+    description: Tracking Christmas tree disposal issues in Washington, D.C.
+    url: https://jack-walk.github.io/dc-xmas-trees/
     skills:
-      - Police reporting
-      - Source building
-      - Public records
+      - Data visualization
+      - Data analysis
+      - Coding
+      - Local reporting
+    body: |
+      As the holidays end, many D.C. residents will place their Christmas trees curbside for disposal by the Department of Public Works. But complaints over missed pickups doubled in 2025, suggesting there were hiccups in the service.
+
+      In the new year, the department will collect trees placed outside “single-family homes and apartment dwellings” from Jan. 2 to Feb. 28, according to the department website. Households that are skipped over can file service requests through the city’s 311 hotline, or independently deliver their trees to a disposal location.
+
+      However, the city's curbside removal system has recently faced difficulties. Last holiday season, D.C. recorded the most service requests due to missed pickups since 2020, according to public 311 records. Tree disposal requests surpassed 2,700, more than doubling those filed one year prior.
+
+  - slug: officiants
+    title: How $25 and 24 Hours Can Make a Wedding Official
+    image: /photos/forms.jpg
+    imageAlt: One-day marriage officiant forms sit atop a table
+    description: Examining the rise of one-day marriage officiants in New York City.
+    url: https://howweloveinnyc.nycitynewsservice.com/how-25-and-24-hours-can-make-a-wedding-official/
+    skills:
+      - Data analysis
+      - Photography
+      - Local reporting
+    body: |
+      Caitlyn Johnson was a natural choice for the ceremony. In college, she and the bride found unlikely camaraderie over a shared crush. Since then, Johnson had stood by through good dates, bad dates, and the unexpected Bumble match that led her friend down the aisle.
+
+      But on the wedding day, Johnson wasn’t altarside as a bridesmaid. In a lush Westchester backyard, she stood beneath the arch and braced herself for a less orthodox role: the wedding officiant. Weeks earlier, she had applied for a single-use license to perform the ceremony.
+
+      “If that process didn’t exist, I don’t think she would have asked me,” said Johnson, a Long Island City resident who works in tech sales. “To be part of someone’s wedding is really special.”
+
+      About one-third of the city’s weddings are now performed by one-day officiants like Johnson, according to City Clerk Michael McSweeney. That’s because of a simplified licensing process the state launched in 2023.
+
+  - slug: die
+    title: ACT UP hosts die-in over Palantir-Trump contracts
+    image: /photos/die.png
+    imageAlt: A person adorning religious clothing and makeup lies on the pavement, as if dead.
+    description: Reporting live from a New York City march and protest.
+    url: https://www.advocate.com/politics/advocacy/act-up-palantir-nyc-protest
+    skills:
       - Breaking news
-    body: |
-      The police beat is where I learned the city. Mulberry Street headquarters sits on the edge of the worst tenements in New York, and every story I covered as a reporter — every arrest, every fire, every dead body — pulled me deeper into the lives of the people on the other side of the door.
-
-      I didn't yet know I would write a book about what I was seeing. But I was learning the geography, the families, and the patterns. The reform work that came later would have been impossible without the reporting work that came first.
-
-  - slug: how-the-other-half
-    title: How the Other Half Lives
-    image: /photos/bandits-roost.jpg
-    imageAlt: Bandit's Roost, a Riis photograph of an alley off Mulberry Street, 1888
-    description: A book-length investigation of New York tenement life, illustrated with my own flash photographs of the city after dark. Published by Charles Scribner's Sons in 1890.
-    url: https://www.loc.gov/item/06017839/
-    skills:
-      - Flash photography
-      - Long-form writing
-      - Public speaking
-      - Documentary
-    body: |
-      The flash powder gave me the picture, but the picture is only half the work. The other half is the words — telling readers in the brownstones uptown what the inside of a Five Points tenement smells like, sounds like, who lives there and how they came to be there.
-
-      The book sold well enough that even Theodore Roosevelt came to find me. He left a note on my door saying he had read the book and had come to help. That was the moment I understood what reporting could do.
-
-  - slug: mulberry-bend
-    title: The Battle for Mulberry Bend
-    image: /photos/mulberry-bend.jpg
-    imageAlt: Mulberry Bend before demolition, photographed in the early 1890s
-    description: A sustained reporting and advocacy effort to demolish Mulberry Bend, the most notorious slum block in lower Manhattan, and replace it with a public park. The block came down in 1894. Columbus Park stands there today.
-    url: https://www.mcny.org/
-    skills:
-      - Accountability reporting
-      - Government affairs
-      - Advocacy
+      - Local reporting
+      - LGBTQ+ reporting
       - Photography
     body: |
-      The Bend was three acres of the foulest tenement block in the city — narrow alleys where the sun never reached, buildings that should have been condemned a generation earlier, and a death rate among the children many times higher than the city average.
+      In the middle of a busy New York City street, dozens of people lay still atop the pavement on Saturday afternoon. ACT UP, one of the world’s most prominent HIV advocacy groups, organized the demonstration outside Palantir, a software company that develops surveillance technology and contracts with Immigration and Customs Enforcement.
 
-      I wrote about it for years. I photographed it. I lectured on it. Reform is slow. The Bend went from a block I first reported on as a young man to a public park nearly twenty years later.
+      The demonstration was a callback to die-ins staged by AIDS advocacy groups from the 1980s onward to celebrate the organization’s 39th anniversary. Hundreds of protesters rallied at the New York City AIDS Memorial, then marched to Palantir’s unmarked office in Manhattan’s Flatiron District, protesting government spending on ICE and the war against Iran amid cuts to funding for HIV care.
