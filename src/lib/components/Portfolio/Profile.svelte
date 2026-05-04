@@ -61,6 +61,12 @@ Next, I'm exploring machine learning tools for document analysis."
 
 <section class="profile">
   <div class="profile-hero">
+    {#if photo}
+      <div class="hero-photo-wrap">
+        <Image src={photo} alt={photoAlt ?? name} size="full" />
+      </div>
+    {/if}
+
     <div class="hero-copy">
       <h1>{name}</h1>
       {#if tagline}
@@ -80,12 +86,6 @@ Next, I'm exploring machine learning tools for document analysis."
 
       <ProfileBio text={bio} />
     </div>
-
-    {#if photo}
-      <div class="hero-photo-wrap">
-        <Image src={photo} alt={photoAlt ?? name} size="full" />
-      </div>
-    {/if}
   </div>
 </section>
 
@@ -104,7 +104,7 @@ Next, I'm exploring machine learning tools for document analysis."
     gap: var(--spacing-md);
 
     @include tablet {
-      grid-template-columns: minmax(0, 1fr) var(--max-width-image-small);
+      grid-template-columns: var(--max-width-image-small) minmax(0, 1fr);
       align-items: start;
     }
   }

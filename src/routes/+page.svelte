@@ -5,7 +5,7 @@
   import { base } from '$app/paths';
 
   let { data } = $props();
-  const content = data.content;
+  const content = $derived(data.content);
 </script>
 
 <div class="container wide">
@@ -32,4 +32,23 @@
       </Card>
     {/each}
   </CardGrid>
+
+  <div class="page-divider" aria-hidden="true">
+    <img src="{base}/photos/bunnies.png" alt="" />
+  </div>
 </div>
+
+<style lang="scss">
+  .page-divider {
+    max-width: var(--max-width-wide);
+    margin: var(--spacing-xl) auto 0;
+    padding: 0 var(--spacing-md) var(--spacing-xl);
+  }
+
+  .page-divider img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+  }
+</style>

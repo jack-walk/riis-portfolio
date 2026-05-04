@@ -1,15 +1,15 @@
 profile:
-  name: Jacob Riis
-  tagline: Police reporter and tenement chronicler
-  photo: photos/jacob-riis.jpg
-  photoAlt: Jacob Riis, in a portrait taken around 1900.
-  email: jriis@eveningsun.com
-  github: jacob-riis
-  linkedin: jacob-riis
+  name: Jack Walker
+  tagline: Journalist
+  photo: photos/headshot.jpeg
+  photoAlt: A headshot of Jack Walker wearing a collared shirt.
+  email: jack.walker73@journalism.cuny.edu
+  github: jack-walk
+  linkedin: jacktmwalker
   bio: |
-    I'm a police reporter at Mulberry Street headquarters for the Evening Sun, lecturing each week with lantern slides drawn from the flash photography I've been making in the Lower East Side.
+    Jack Walker is a journalist based in Brooklyn who covers topics including health, labor, social services and the LGBTQ+ community.
 
-    I'm seeking the chance to turn this work into reform — better housing laws, better schools for the children of the poor, and the demolition of Mulberry Bend.
+    Jack specializes in data journalism, but also dabbles in audio and written storytelling. He is pursuing an M.A. at the Craig Newmark School of Journalism, and also holds an M.A. and B.A. from Brown University.
 
 clips:
   - slug: police
